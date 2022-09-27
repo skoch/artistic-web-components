@@ -1,0 +1,19 @@
+// @use 'normalize';
+
+$breakpoint-mobile: 768px;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: system-ui;
+  font-size: 2rem;
+  font-weight: 400;
+  background-color: #f9f9f9;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
