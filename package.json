@@ -14,7 +14,7 @@
     "clean": "rimraf dev build",
     "build:scss": "sass --style=compressed --no-source-map src/styles/main.scss dev/styles/main.css",
     "build:ts": "tsc",
-    "bundle": "rollup -c"
+    "bundle": "rollup -c --context this"
   },
   "repository": {
     "type": "git",

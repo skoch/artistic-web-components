@@ -5,10 +5,10 @@ import { customElement, property } from 'lit/decorators.js';
 export class ArtisticDoughnut extends LitElement {
   static styles = css`
     div {
-      border-radius: 50%/50%;
-      /* display: flex; */
-      /* align-items: center; */
-      /* justify-content: center; */
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   `;
 
@@ -23,10 +23,8 @@ export class ArtisticDoughnut extends LitElement {
 
   render() {
     const size = this.diameter - this.lineWidth * 2;
-    return html`<div
-      style="width: ${size}rem; height: ${size}rem; border: solid ${this
-        .lineWidth}rem ${this.color};"
-    >
+    const style = `width: ${size}rem; height: ${size}rem; border: solid ${this.lineWidth}rem ${this.color};`;
+    return html`<div style="${style}">
       <slot></slot>
     </div>`;
   }

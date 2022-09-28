@@ -23,11 +23,12 @@ export class ArtisticTriangleRight extends LitElement {
   color = '#f0f';
 
   render() {
-    return html`<div
-      style="border-top: ${this.widthTop} solid transparent;
+    const style = `
+      border-top: ${this.widthTop} solid transparent;
       border-left: ${this.width} solid ${this.color};
-      border-bottom: ${this.widthBottom} solid transparent;"
-    >
+      border-bottom: ${this.widthBottom} solid transparent;
+    `;
+    return html`<div style="${style}">
       <slot></slot>
     </div>`;
   }

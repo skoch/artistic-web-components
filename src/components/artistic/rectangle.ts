@@ -25,10 +25,12 @@ export class ArtisticRectangle extends LitElement {
   color = '#f0f';
 
   render() {
-    return html`<div
-      style="width: ${this.width}; height: ${this.height}; background: ${this
-        .color};"
-    >
+    const style = `
+      width: ${this.width};
+      height: ${this.height};
+      background: ${this.color};
+    `;
+    return html`<div style="${style}">
       <slot></slot>
     </div>`;
   }

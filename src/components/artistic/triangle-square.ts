@@ -29,13 +29,15 @@ export class ArtisticTriangleSquare extends LitElement {
   leftColor = '#00f';
 
   render() {
-    return html`<div
-      style="border-width: ${this.width / 2}rem; border-style: ${this
-        .borderStyle}; border-top-color: ${this
-        .topColor}; border-right-color: ${this
-        .rightColor}; border-bottom-color: ${this
-        .bottomColor}; border-left-color: ${this.leftColor};"
-    >
+    const style = `
+      border-width: ${this.width / 2}rem;
+      border-style: ${this.borderStyle};
+      border-top-color: ${this.topColor};
+      border-right-color: ${this.rightColor};
+      border-bottom-color: ${this.bottomColor};
+      border-left-color: ${this.leftColor};
+    `;
+    return html`<div style="${style}">
       <slot></slot>
     </div>`;
   }

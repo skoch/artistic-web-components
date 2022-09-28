@@ -32,16 +32,18 @@ export class ArtisticCircleGradient extends LitElement {
   color2 = '#0f0';
 
   render() {
-    return html`<div
-      style="width: ${this.width}; height: ${this
-        .height}; background: linear-gradient(
+    const style = `
+      width: ${this.width};
+      height: ${this.height};
+      background: linear-gradient(
         ${this.angle},
         ${this.color} 0%,
         ${this.color} 50%,
         ${this.color2} 50%,
         ${this.color2} 100%
-      );"
-    >
+      );
+    `;
+    return html`<div style="${style}">
       <slot></slot>
     </div>`;
   }

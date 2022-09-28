@@ -19,10 +19,12 @@ export class ArtisticCircle extends LitElement {
   color = '#f0f';
 
   render() {
-    return html`<div
-      style="width: ${this.size}; height: ${this.size}; background: ${this
-        .color};"
-    >
+    const style = `
+      width: ${this.size};
+      height: ${this.size};
+      background: ${this.color};
+    `;
+    return html`<div style="${style}">
       <slot></slot>
     </div>`;
   }
