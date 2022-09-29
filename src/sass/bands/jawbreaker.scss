@@ -1,0 +1,27 @@
+.jawbreaker {
+  color: #010113;
+  background-color: #d1d2d4;
+
+  h1 {
+    font-size: 8.8rem;
+  }
+
+  .band {
+    &__information {
+      height: 25.7rem;
+      padding: 1rem 2.5rem 2.5rem;
+
+      .details {
+        color: #050000;
+
+        .guests {
+          width: 17.5rem;
+        }
+      }
+    }
+
+    &__art {
+      flex-wrap: wrap;
+    }
+  }
+}

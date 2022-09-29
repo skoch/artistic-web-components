@@ -12,7 +12,7 @@
     "serve": "wds --node-resolve --watch",
     "build": "npm-run-all -s clean build:scss build:ts bundle",
     "clean": "rimraf dev build",
-    "build:scss": "sass --style=compressed --no-source-map src/styles/index.scss dev/styles/index.css",
+    "build:scss": "sass --style=compressed --no-source-map src/sass:dev/stylesheets",
     "build:ts": "tsc",
     "bundle": "rollup -c --context this"
   },
