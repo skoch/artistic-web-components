@@ -11,7 +11,7 @@ export class ArtisticRectangle extends LitElement {
       display: flex;
       align-items: center;
       justify-content: center;
-      flex-wrap: wrap;
+      /* flex-wrap: wrap; */
     }
   `;
 

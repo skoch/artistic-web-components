@@ -10,7 +10,9 @@ export default {
     // Entry point for application build; can specify a glob to build multiple
     // HTML files for non-SPA app
     html({
-      input: 'index.html',
+      rootDir: './',
+      flattenOutput: false,
+      input: ['*.html', 'swissted/*.html'],
     }),
     // Resolve bare module specifiers to relative paths
     resolve(),

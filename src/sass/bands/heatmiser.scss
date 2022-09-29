@@ -1,0 +1,27 @@
+.heatmiser {
+  background: #c4c5c6;
+  color: #010005;
+
+  .band__information {
+    height: 26.7rem;
+    padding: 2.5rem 2.5rem 0;
+
+    .details {
+      font-size: 1.4rem;
+      line-height: 1.5;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  h1 {
+    font-size: 14.1rem;
+    letter-spacing: -1px;
+  }
+
+  // a {
+  //   background-color: #c4c5c6;
+  //   color: #010005;
+  //   display: block;
+  // }
+}
