@@ -1,0 +1,31 @@
+.david-bowie {
+  display: block;
+  color: #000212;
+  background-color: #dce0d8;
+
+  h1 {
+    font-size: 8.7rem;
+    letter-spacing: -0.373rem;
+  }
+
+  .band {
+    &__information {
+      height: 26.7rem;
+      padding: 0 2.5rem 2.5rem;
+
+      .details {
+        .guests-venue {
+          display: flex;
+
+          .guests {
+            margin-right: 2.5rem;
+          }
+        }
+      }
+    }
+
+    &__art {
+      flex-wrap: wrap;
+    }
+  }
+}
