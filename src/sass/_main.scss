@@ -26,6 +26,11 @@ main {
   border: 5rem solid #f9f9f9;
   overflow: hidden;
 
+  h1 {
+    font-size: 6.4rem;
+    letter-spacing: -1px;
+  }
+
   a {
     width: 100%;
   }
@@ -35,6 +40,13 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    .details {
+      font-size: 1.4rem;
+      line-height: 1.5;
+      display: flex;
+      justify-content: space-between;
+    }
   }
 
   &__art {
