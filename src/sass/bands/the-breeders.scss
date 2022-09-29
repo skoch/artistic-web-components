@@ -1,0 +1,36 @@
+.the-breeders {
+  color: #060000;
+  background-color: #35aee8;
+
+  h1 {
+    font-size: 8.3rem;
+    letter-spacing: -0.15rem;
+  }
+
+  .band {
+    &__information {
+      height: 25.8rem;
+      padding: 3.4rem 3.5rem 0 2.5rem;
+
+      .details {
+        letter-spacing: 0.1px;
+        justify-content: flex-start;
+
+        .date {
+          flex: 0 0 15rem;
+        }
+
+        .guests-venue {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+
+        }
+      }
+    }
+
+    &__art {
+      flex-wrap: wrap;
+    }
+  }
+}
