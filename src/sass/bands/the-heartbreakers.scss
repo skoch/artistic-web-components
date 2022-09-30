@@ -1,0 +1,35 @@
+.the-heartbreakers {
+  color: #000007;
+  background-color: #5fbdcd;
+
+  h1 {
+    font-size: 10.6rem;
+    letter-spacing: -0.16rem;
+    line-height: 9.3rem;
+  }
+
+  .band {
+    &__information {
+      padding: 1.5rem;
+      height: 26.2rem;
+      justify-content: flex-end;
+      position: relative;
+
+      .details {
+        position: absolute;
+        top: 13.8rem;
+        right: 2.5rem;
+        .date {
+          margin-right: 7.6rem;
+        }
+      }
+    }
+
+    &__art {
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      grid-template-rows: repeat(8, 1fr);
+      gap: 10.85px;
+    }
+  }
+}
