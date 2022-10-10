@@ -1,0 +1,47 @@
+.jawbreaker-2 {
+  background-color: #dd4333;
+  color: #000212;
+
+  a {
+    .canvas {
+      position: relative;
+      top: -11.1rem;
+      left: -24rem;
+      transform: rotate(-45deg);
+      display: flex;
+      flex-wrap: wrap;
+      width: 123.5rem;
+      height: 128.9rem;
+    }
+
+    .details {
+      display: flex;
+      justify-content: space-between;
+
+      color: rgb(0, 2, 18);
+      font-size: 2rem;
+      letter-spacing: 0;
+      line-height: 2.4rem;
+      position: absolute;
+      top: 56.1rem;
+      left: 19.7rem;
+
+      .guests {
+        margin-right: 3.3rem;
+      }
+
+      .date {
+        margin-right: 6.8rem;
+      }
+    }
+
+    h1 {
+      font-size: 13.3rem;
+      color: rgb(223, 226, 218);
+      letter-spacing: 0.07rem;
+      position: absolute;
+      top: 60.5rem;
+      left: 18.7rem;
+    }
+  }
+}
