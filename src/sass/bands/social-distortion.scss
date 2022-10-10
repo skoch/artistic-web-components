@@ -1,0 +1,36 @@
+.social-distortion {
+  display: block;
+  color: #00000f;
+  background-color: #dfe2da;
+
+  h1 {
+    font-size: 6.6rem;
+    letter-spacing: -0.009rem;
+  }
+
+  .band {
+
+    &__information {
+      height: 26.2rem;
+      padding: 0 2.5rem 3rem;
+
+      .details {
+        font-size: 1.9rem;
+        letter-spacing: -0.04rem;
+        line-height: 2.2rem;
+
+        .date-venue {
+          display: flex;
+
+          .date {
+            margin-right: 4rem;
+          }
+        }
+      }
+    }
+
+    &__art {
+      background-color: #2d348e;
+    }
+  }
+}
