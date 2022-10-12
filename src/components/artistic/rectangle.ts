@@ -30,6 +30,9 @@ export class ArtisticRectangle extends LitElement {
   @property()
   left = '0';
 
+  @property()
+  align = 'start';
+
   render() {
     const style = `
       width: ${this.width};
@@ -38,6 +41,7 @@ export class ArtisticRectangle extends LitElement {
       ${this.top !== '0' || this.left !== '0' ? 'position: absolute;' : ''}
       ${this.top !== '0' ? `top: ${this.top};` : ''}
       ${this.left !== '0' ? `left: ${this.left};` : ''}
+      align-self: ${this.align};
     `;
     return html`<div style="${style}">
       <slot></slot>
