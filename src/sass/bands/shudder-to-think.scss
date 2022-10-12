@@ -1,0 +1,26 @@
+.shudder-to-think {
+  background: #dfe2da;
+  color: #00000f;
+
+  .band__information {
+    height: 26.7rem;
+    padding: 2.5rem 2.5rem 0;
+
+    .guests-venue {
+      margin-right: 7rem;
+
+      .guests {
+        margin-bottom: 1.5rem;
+      }
+    }
+
+    .details {
+      line-height: 2rem;
+      justify-content: flex-start;
+    }
+  }
+
+  .band__art {
+    position: relative;
+  }
+}
