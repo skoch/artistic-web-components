@@ -38,10 +38,10 @@ export class ArtisticRectangle extends LitElement {
       width: ${this.width};
       height: ${this.height};
       background: ${this.color};
+      align-self: ${this.align};
       ${this.top !== '0' || this.left !== '0' ? 'position: absolute;' : ''}
       ${this.top !== '0' ? `top: ${this.top};` : ''}
       ${this.left !== '0' ? `left: ${this.left};` : ''}
-      align-self: ${this.align};
     `;
     return html`<div style="${style}">
       <slot></slot>
