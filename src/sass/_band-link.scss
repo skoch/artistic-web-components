@@ -1,0 +1,203 @@
+@use 'sass:color';
+
+a.band-link {
+  font-size: 1.8rem;
+  line-height: 1;
+  font-weight: bold;
+
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 25%;
+  height: 20%;
+  color: #010005;
+  transition: background-color 0.3s ease-out, color 0.3s ease-out;
+  background-color: #dedfd8;
+
+  @for $i from 1 through 20 {
+    &:nth-child(#{$i}) {
+      background-color: color.scale(#dedfd8, $lightness: $i * -2%);
+    }
+  }
+
+  .name {
+    margin: 0 1rem 1rem 0;
+    text-align: right;
+  }
+
+  &.the-crowd {
+    &:hover {
+      color: #1b3177;
+    }
+    &:focus {
+      outline-color: #1b3177;
+    }
+  }
+  &.radiohead {
+    &:hover {
+      color: #ae2522;
+    }
+    &:focus {
+      outline-color: #ae2522;
+    }
+  }
+  &.talking-heads {
+    &:hover {
+      color: #df562b;
+    }
+    &:focus {
+      outline-color: #df562b;
+    }
+  }
+  &.blondie {
+    &:hover {
+      color: #da328a;
+    }
+    &:focus {
+      outline-color: #da328a;
+    }
+  }
+  &.jawbreaker {
+    &:hover {
+      color: #b12771;
+    }
+    &:focus {
+      outline-color: #b12771;
+    }
+  }
+  &.jawbreaker-2 {
+    &:hover {
+      color: #dd4333;
+    }
+    &:focus {
+      outline-color: #dd4333;
+    }
+  }
+  &.heatmiser {
+    &:hover {
+      color: #8db74a;
+    }
+    &:focus {
+      outline-color: #8db74a;
+    }
+  }
+  &.the-velvet-underground {
+    &:hover {
+      color: #52bcef;
+    }
+    &:focus {
+      outline-color: #52bcef;
+    }
+  }
+  &.bad-religion {
+    &:hover {
+      color: #de4f2b;
+    }
+    &:focus {
+      outline-color: #de4f2b;
+    }
+  }
+  &.shudder-to-think {
+    &:hover {
+      color: #654494;
+    }
+    &:focus {
+      outline-color: #654494;
+    }
+  }
+  &.david-bowie {
+    &:hover {
+      color: #ceb33e;
+    }
+    &:focus {
+      outline-color: #ceb33e;
+    }
+  }
+  &.meat-puppets {
+    &:hover {
+      color: #dc3f2d;
+    }
+    &:focus {
+      outline-color: #dc3f2d;
+    }
+  }
+  &.morphine {
+    &:hover {
+      color: #5fbbbc;
+    }
+    &:focus {
+      outline-color: #5fbbbc;
+    }
+  }
+  &.social-distortion {
+    &:hover {
+      color: #dd4333;
+    }
+    &:focus {
+      outline-color: #dd4333;
+    }
+  }
+  &.sugar {
+    &:hover {
+      color: #763077;
+    }
+    &:focus {
+      outline-color: #763077;
+    }
+  }
+  &.the-heartbreakers {
+    &:hover {
+      color: #4d7893;
+    }
+    &:focus {
+      outline-color: #4d7893;
+    }
+  }
+  &.the-jesus-and-mary-chain {
+    &:hover {
+      color: #dc3d2c;
+    }
+    &:focus {
+      outline-color: #dc3d2c;
+    }
+  }
+  &.joan-jett {
+    &:hover {
+      color: #ed327f;
+    }
+    &:focus {
+      outline-color: #ed327f;
+    }
+  }
+  &.the-breeders {
+    &:hover {
+      color: #8db946;
+    }
+    &:focus {
+      outline-color: #8db948;
+    }
+  }
+  &.credits {
+    background-color: #f9f9f9;
+    color: #dd4333;
+    &:hover {
+      /* grabbed out of inspector */
+      background-color: #7e816a;
+      color: #010005;
+    }
+    &:focus {
+      outline-color: #010005;
+    }
+  }
+
+  &:hover {
+    transition: background-color 0.3s ease-out, color 0.3s ease-out;
+    background-color: #f9f9f9;
+  }
+
+  &:focus {
+    outline: 2px dotted #f9f9f9;
+    outline-offset: -4px;
+  }
+}
