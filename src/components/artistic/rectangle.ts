@@ -31,7 +31,7 @@ export class ArtisticRectangle extends LitElement {
   left = '0';
 
   @property()
-  align = 'start';
+  align = 'initial';
 
   render() {
     const style = `
