@@ -1,0 +1,30 @@
+.credits {
+  color: #000211;
+  background-color: #dd4333;
+  font-weight: bold;
+
+  h1 {
+    color: #dfe2da;
+    font-size: 8.3rem;
+    letter-spacing: -0.15rem;
+  }
+
+  .band {
+    &__information {
+      height: 24.7rem;
+      padding: 2rem 2.5rem 2.5rem;
+
+      .details {
+        letter-spacing: 0.1px;
+
+        .guests {
+          width: 17.5rem;
+        }
+      }
+    }
+
+    &__art {
+      flex-wrap: wrap;
+    }
+  }
+}

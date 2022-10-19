@@ -1,0 +1,35 @@
+.meat-puppets {
+  color: #000009;
+  background-color: #dc3f2d;
+
+  h1 {
+    font-size: 6.4rem;
+    letter-spacing: -0.18rem;
+  }
+
+  .band {
+    &__information {
+      padding: 0 2rem 2rem 2rem;
+      height: 27.2rem;
+
+      .details {
+        color: #dfe0d9;
+
+        .date {
+          flex: 0 0 15rem;
+        }
+
+        .guests-venue {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+
+        }
+      }
+    }
+
+    &__art {
+      flex-wrap: wrap;
+    }
+  }
+}

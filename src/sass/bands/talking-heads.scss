@@ -1,0 +1,36 @@
+.talking-heads {
+  display: block;
+  color: #dde0d8;
+  background-color: #df562b;
+
+  // h1 {
+  //   font-size: 8.7rem;
+  //   letter-spacing: -0.373rem;
+  // }
+
+  .band {
+
+    &__information {
+      height: 25.7rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 1rem 2.5rem 2.5rem;
+
+      .details {
+        font-size: 1.4rem;
+        line-height: 1.5;
+        display: flex;
+        justify-content: space-between;
+
+        .guests {
+          width: 17.5rem;
+        }
+      }
+    }
+
+    &__art {
+      flex-wrap: wrap;
+    }
+  }
+}

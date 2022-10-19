@@ -7,11 +7,9 @@ import summary from 'rollup-plugin-summary';
 
 export default {
   plugins: [
-    // Entry point for application build; can specify a glob to build multiple
-    // HTML files for non-SPA app
     html({
       rootDir: './',
-      flattenOutput: false,
+      flattenOutput: true,
       input: ['*.html', 'swissted/*.html'],
     }),
     // Resolve bare module specifiers to relative paths

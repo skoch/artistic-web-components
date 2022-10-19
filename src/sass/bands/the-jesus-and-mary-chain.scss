@@ -1,0 +1,31 @@
+.the-jesus-and-mary-chain {
+  background: #cecfd1;
+  color: #000212;
+
+  .band__information {
+    height: 26.2rem;
+    padding: 3rem 2.5rem 0;
+
+    .date-guests {
+      display: flex;
+
+      .date {
+        margin-right: 4.2rem;
+      }
+    }
+
+    .details {
+      line-height: 1.9rem;
+      letter-spacing: 0.03rem;
+    }
+  }
+
+  .band__art {
+    position: relative;
+    overflow: hidden;
+    height: 70.7rem;
+    padding-top: 9px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}

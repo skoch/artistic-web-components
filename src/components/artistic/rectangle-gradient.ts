@@ -29,6 +29,15 @@ export class ArtisticRectangleGradient extends LitElement {
   @property()
   color2 = '#0f0';
 
+  @property()
+  top = '0';
+
+  @property()
+  left = '0';
+
+  @property()
+  align = 'initial';
+
   render() {
     const style = `
       width: ${this.width};
@@ -40,6 +49,10 @@ export class ArtisticRectangleGradient extends LitElement {
         ${this.color2} 50%,
         ${this.color2} 100%
       );
+      align-self: ${this.align};
+      ${this.top !== '0' || this.left !== '0' ? 'position: absolute;' : ''}
+      ${this.top !== '0' ? `top: ${this.top};` : ''}
+      ${this.left !== '0' ? `left: ${this.left};` : ''}
     `;
     return html`<div style="${style}">
       <slot></slot>

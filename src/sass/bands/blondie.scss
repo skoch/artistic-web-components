@@ -1,0 +1,29 @@
+.blondie {
+  color: #dce0d6;
+  background-color: #da328a;
+
+  h1 {
+    font-size: 10rem;
+    position: relative;
+    bottom: -1rem;
+  }
+
+  .band {
+    &__information {
+      height: 26.7rem;
+      padding: 2.5rem 2.5rem 0;
+
+      .details {
+        color: #050000;
+
+        .guests {
+          width: 17.5rem;
+        }
+      }
+    }
+
+    &__art {
+      flex-wrap: wrap;
+    }
+  }
+}

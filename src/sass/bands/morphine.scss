@@ -1,0 +1,32 @@
+.morphine {
+  color: #dedfd8;
+  background-color: #010004;
+
+  h1 {
+    font-size: 9.4rem;
+    letter-spacing: -0.166rem;
+  }
+
+  .band {
+    &__information {
+      padding: 3rem 2rem;
+      height: 23.2rem;
+
+      .festival, .venue {
+        margin-bottom: 1.5rem;
+      }
+
+      .details {
+        .column {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+        }
+      }
+    }
+
+    &__art {
+      flex-wrap: wrap;
+    }
+  }
+}

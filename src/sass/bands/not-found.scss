@@ -1,0 +1,32 @@
+.not-found {
+  // color: #3d8e89;
+  color: #d2f0ff;
+  background-color: #377e49;
+
+  h1 {
+    // color: #439dc8;
+    color: #d2f0ff;
+    font-size: 8.3rem;
+    letter-spacing: -0.15rem;
+  }
+
+  .band {
+    &__information {
+      height: 24.7rem;
+      padding: 2rem 2.5rem 2.5rem;
+
+      .details {
+        letter-spacing: 0.1px;
+
+        .guests {
+          width: 17.5rem;
+        }
+      }
+    }
+
+    &__art {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}

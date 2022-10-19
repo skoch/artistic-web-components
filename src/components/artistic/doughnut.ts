@@ -21,9 +21,22 @@ export class ArtisticDoughnut extends LitElement {
   @property()
   color = '#f0f';
 
+  @property()
+  top = '0';
+
+  @property()
+  left = '0';
+
   render() {
     const size = this.diameter - this.lineWidth * 2;
-    const style = `width: ${size}rem; height: ${size}rem; border: solid ${this.lineWidth}rem ${this.color};`;
+    const style = `
+      width: ${size}rem;
+      height: ${size}rem;
+      border: solid ${this.lineWidth}rem ${this.color};
+      ${this.top !== '0' || this.left !== '0' ? 'position: absolute;' : ''}
+      ${this.top !== '0' ? `top: ${this.top};` : ''}
+      ${this.left !== '0' ? `left: ${this.left};` : ''}
+    `;
     return html`<div style="${style}">
       <slot></slot>
     </div>`;

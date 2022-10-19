@@ -24,11 +24,24 @@ export class ArtisticRectangle extends LitElement {
   @property()
   color = '#f0f';
 
+  @property()
+  top = '0';
+
+  @property()
+  left = '0';
+
+  @property()
+  align = 'initial';
+
   render() {
     const style = `
       width: ${this.width};
       height: ${this.height};
       background: ${this.color};
+      align-self: ${this.align};
+      ${this.top !== '0' || this.left !== '0' ? 'position: absolute;' : ''}
+      ${this.top !== '0' ? `top: ${this.top};` : ''}
+      ${this.left !== '0' ? `left: ${this.left};` : ''}
     `;
     return html`<div style="${style}">
       <slot></slot>
