@@ -1,0 +1,386 @@
+<html>
+  <head>
+    <title>swissted</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/normalize.css@8.0.1/normalize.css"
+      media="all"
+    />
+    <link rel="stylesheet" href="./dev/stylesheets/index.css" media="all" />
+    <script type="module" src="./dev/components/index.js"></script>
+  </head>
+  <body>
+    <main>
+      <artistic-rectangle width="100vw" height="100vh" color="#264653">
+        <artistic-triangle-left
+          width="20rem"
+          widthTop="20rem"
+          widthBottom="20rem"
+          color="#2a9d8f"
+        ></artistic-triangle-left>
+        <artistic-triangle-right
+          width="20rem"
+          widthTop="20rem"
+          widthBottom="20rem"
+          color="#e9c46a"
+        ></artistic-triangle-right>
+        <artistic-triangle-right
+          width="20rem"
+          widthTop="20rem"
+          widthBottom="20rem"
+          color="#f4a261"
+        ></artistic-triangle-right>
+        <artistic-triangle-left
+          width="20rem"
+          widthTop="20rem"
+          widthBottom="20rem"
+          color="#e76f51"
+        ></artistic-triangle-left>
+      </artistic-rectangle>
+
+      <artistic-rectangle width="100vw" height="100vh" color="#f9f">
+        <artistic-triangle-right color="#343536"></artistic-triangle-right>
+        <artistic-triangle-left></artistic-triangle-left>
+        <artistic-triangle-right></artistic-triangle-right>
+        <artistic-triangle-left color="#343536"></artistic-triangle-left>
+      </artistic-rectangle>
+
+      <artistic-rectangle width="100vw" height="100vh" color="#d1d">
+        <artistic-triangle-left></artistic-triangle-left>
+        <artistic-triangle-left color="#343536"></artistic-triangle-left>
+        <artistic-triangle-left width="40rem"></artistic-triangle-left>
+      </artistic-rectangle>
+
+      <artistic-rectangle
+        width="100vw"
+        height="20rem"
+        color="#f9f"
+      ></artistic-rectangle>
+
+      <artistic-rectangle width="100vw" height="20rem" color="#f9f">
+        <artistic-triangle-right color="#343536"></artistic-triangle-right>
+        <artistic-triangle-square
+          width="20"
+          topColor="#343536"
+          rightColor="#f0f"
+          bottomColor="#f0f"
+          leftColor="#f9f"
+        >
+        </artistic-triangle-square>
+        <artistic-triangle-square
+          width="20"
+          topColor="#343536"
+          rightColor="#f9f"
+          bottomColor="#f0f"
+          leftColor="#f0f"
+        ></artistic-triangle-square>
+        <artistic-triangle-left color="#343536"></artistic-triangle-left>
+      </artistic-rectangle>
+
+      <artistic-rectangle width="100vw" height="20rem" color="#f9f">
+        <artistic-triangle-left></artistic-triangle-left>
+        <artistic-triangle-square
+          width="20"
+          topColor="#f9f"
+          rightColor="#343536"
+          bottomColor="#343536"
+          leftColor="#f0f"
+        ></artistic-triangle-square>
+        <artistic-triangle-square
+          width="20"
+          topColor="#f9f"
+          rightColor="#f0f"
+          bottomColor="#343536"
+          leftColor="#343536"
+        ></artistic-triangle-square>
+        <artistic-triangle-right color="#f0f"></artistic-triangle-right>
+      </artistic-rectangle>
+
+      <artistic-rectangle
+        width="100vw"
+        height="20rem"
+        color="#f9f"
+      ></artistic-rectangle>
+
+      <artistic-rectangle width="100vw" height="20rem" color="#d1d">
+        <artistic-triangle-down
+          height="20rem"
+          color="#f9f"
+        ></artistic-triangle-down>
+      </artistic-rectangle>
+
+      <artistic-rectangle width="100vw" height="50rem">
+        <artistic-triangle-down
+          height="50rem"
+          color="#d1d"
+        ></artistic-triangle-down>
+        <artistic-triangle-down
+          height="50rem"
+          color="#d1d"
+        ></artistic-triangle-down>
+        <artistic-triangle-down
+          height="50rem"
+          color="#d1d"
+        ></artistic-triangle-down>
+        <artistic-triangle-down
+          height="50rem"
+          color="#d1d"
+        ></artistic-triangle-down>
+      </artistic-rectangle>
+
+      <artistic-rectangle width="100vw" height="100vh" color="#d1d">
+        <artistic-triangle-up></artistic-triangle-up>
+        <artistic-triangle-up widthRight="0"></artistic-triangle-up>
+        <artistic-triangle-up
+          widthLeft="0"
+          color="#343536"
+        ></artistic-triangle-up>
+        <artistic-triangle-up color="#343536"></artistic-triangle-up>
+        <artistic-triangle-up
+          widthRight="0"
+          color="#343536"
+        ></artistic-triangle-up>
+        <artistic-triangle-up widthLeft="0"> </artistic-triangle-up>
+      </artistic-rectangle>
+
+      <artistic-rectangle width="100vw" height="100vh" color="#d1d">
+        <artistic-rectangle-gradient
+          width="20rem"
+          height="20rem"
+          color="#439dc8"
+          color2="#377e49"
+          angle="150deg"
+        >
+          <artistic-rectangle-gradient
+            width="40%"
+            height="100%"
+            color="#d1d"
+            color2="#343536"
+            angle="150deg"
+          ></artistic-rectangle-gradient>
+        </artistic-rectangle-gradient>
+        <artistic-rectangle-gradient
+          width="20rem"
+          height="20rem"
+          color="#439dc8"
+          color2="#377e49"
+          angle="210deg"
+        >
+          <artistic-rectangle-gradient
+            width="40%"
+            height="100%"
+            color="#d1d"
+            color2="#343536"
+            angle="210deg"
+          ></artistic-rectangle-gradient>
+        </artistic-rectangle-gradient>
+        <artistic-rectangle-gradient
+          width="20rem"
+          height="20rem"
+          color="#439dc8"
+          color2="#377e49"
+          angle="150deg"
+        >
+          <artistic-rectangle-gradient
+            width="40%"
+            height="100%"
+            color="#d1d"
+            color2="#343536"
+            angle="150deg"
+          ></artistic-rectangle-gradient>
+        </artistic-rectangle-gradient>
+        <artistic-rectangle-gradient
+          width="20rem"
+          height="20rem"
+          color="#439dc8"
+          color2="#377e49"
+          angle="210deg"
+        >
+          <artistic-rectangle-gradient
+            width="40%"
+            height="100%"
+            color="#d1d"
+            color2="#343536"
+            angle="210deg"
+          ></artistic-rectangle-gradient>
+        </artistic-rectangle-gradient>
+      </artistic-rectangle>
+
+      <artistic-rectangle width="100vw" height="100vh" color="#377e4980">
+        <artistic-circle-gradient
+          width="20rem"
+          height="20rem"
+          color="#439dc8"
+          color2="#377e49"
+          angle="0deg"
+        >
+          <artistic-rectangle
+            width="100%"
+            height="7rem"
+            color="#01000580"
+          ></artistic-rectangle>
+        </artistic-circle-gradient>
+        <artistic-circle-gradient
+          width="20rem"
+          height="20rem"
+          color="#439dc8"
+          color2="#377e49"
+          angle="225deg"
+        >
+          <artistic-circle size="7rem" color="#01000580"></artistic-circle>
+        </artistic-circle-gradient>
+        <artistic-circle-gradient
+          width="20rem"
+          height="20rem"
+          color="#439dc8"
+          color2="#377e49"
+          angle="90deg"
+        >
+          <artistic-rectangle
+            width="7rem"
+            height="100%"
+            color="#01000580"
+          ></artistic-rectangle>
+        </artistic-circle-gradient>
+        <artistic-circle-gradient
+          width="20rem"
+          height="20rem"
+          color="#439dc8"
+          color2="#377e49"
+          angle="135deg"
+        >
+          <artistic-circle size="7rem" color="#01000580"></artistic-circle>
+        </artistic-circle-gradient>
+      </artistic-rectangle>
+
+      <artistic-rectangle width="100vw" height="200vh" color="#343536">
+        <artistic-rectangle width="20%" height="100%" color="#8db74a">
+          <artistic-rectangle
+            width="10%"
+            height="100%"
+            color="#dc3c2b"
+          ></artistic-rectangle>
+        </artistic-rectangle>
+        <artistic-rectangle width="20%" height="100%" color="#dc3c2b">
+          <artistic-rectangle
+            width="10%"
+            height="100%"
+            color="#dedfd8"
+          ></artistic-rectangle>
+        </artistic-rectangle>
+        <artistic-rectangle width="20%" height="100%" color="#dedfd8">
+          <artistic-rectangle
+            width="10%"
+            height="100%"
+            color="#010005"
+          ></artistic-rectangle>
+        </artistic-rectangle>
+        <artistic-rectangle width="20%" height="100%" color="#010005">
+          <artistic-rectangle
+            width="10%"
+            height="100%"
+            color="#54b8c2"
+          ></artistic-rectangle>
+        </artistic-rectangle>
+        <artistic-rectangle width="20%" height="100%" color="#54b8c2">
+          <artistic-rectangle
+            width="10%"
+            height="100%"
+            color="#8db74a"
+          ></artistic-rectangle>
+        </artistic-rectangle>
+      </artistic-rectangle>
+
+      <artistic-rectangle width="100vw" height="100vh" color="#343536">
+        <artistic-doughnut diameter="50" lineWidth="5" color="#dc3d2c">
+          <artistic-doughnut diameter="25" lineWidth="5" color="#a49206">
+          </artistic-doughnut>
+        </artistic-doughnut>
+      </artistic-rectangle>
+
+      <artistic-rectangle width="100vw" height="100vh" color="#dfe2da">
+        <artistic-triangle-square
+          width="80"
+          topColor="#000211"
+          rightColor="#dfe2da"
+          bottomColor="#dfe2da"
+          leftColor="#000211"
+          borderStyle="double"
+        >
+          <artistic-triangle-square
+            width="40"
+            topColor="transparent"
+            rightColor="#000211"
+            bottomColor="#000211"
+            leftColor="transparent"
+          >
+            <artistic-triangle-square
+              width="20"
+              topColor="transparent"
+              rightColor="#dfe2da"
+              bottomColor="#dfe2da"
+              leftColor="transparent"
+            ></artistic-triangle-square>
+          </artistic-triangle-square>
+        </artistic-triangle-square>
+      </artistic-rectangle>
+
+      <artistic-rectangle width="100vw" height="50vh" color="#35e8c2">
+        <artistic-triangle-square
+          width="20"
+          topColor="#63fd86"
+          rightColor="#8601ff"
+          bottomColor="#35e8c2"
+          leftColor="#63fd86"
+        ></artistic-triangle-square>
+        <artistic-triangle-square
+          width="20"
+          topColor="#63fd86"
+          rightColor="#63fd86"
+          bottomColor="#35e8c2"
+          leftColor="#8601ff"
+        ></artistic-triangle-square>
+        <artistic-triangle-square
+          width="20"
+          topColor="#63fd86"
+          rightColor="#35e8c2"
+          bottomColor="#8601ff"
+          leftColor="#63fd86"
+        ></artistic-triangle-square>
+        <artistic-triangle-square
+          width="20"
+          topColor="#63fd86"
+          rightColor="#63fd86"
+          bottomColor="#8601ff"
+          leftColor="#35e8c2"
+        ></artistic-triangle-square>
+      </artistic-rectangle>
+
+      <artistic-rectangle width="100vw" height="50vh" color="#8600ff">
+        <artistic-circle size="20rem" color="#343536">
+          <artistic-circle size="10rem"></artistic-circle>
+        </artistic-circle>
+
+        <artistic-rectangle width="20rem" height="20rem">
+          <artistic-rectangle size="10rem" color="#343536"></artistic-rectangle>
+        </artistic-rectangle>
+
+        <artistic-circle size="20rem" color="#343536">
+          <artistic-rectangle size="10rem"></artistic-rectangle>
+        </artistic-circle>
+
+        <artistic-rectangle width="20rem" height="20rem">
+          <artistic-circle size="10rem" color="#343536"></artistic-circle>
+        </artistic-rectangle>
+      </artistic-rectangle>
+
+      <artistic-rectangle width="100vw" height="100vh" color="#343536">
+        <artistic-circle size="10rem">
+          <artistic-circle size="5rem" color="#343536"></artistic-circle>
+        </artistic-circle>
+        <artistic-rectangle size="10rem"></artistic-rectangle>
+      </artistic-rectangle>
+    </main>
+  </body>
+</html>
