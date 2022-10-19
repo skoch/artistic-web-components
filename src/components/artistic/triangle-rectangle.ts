@@ -33,7 +33,9 @@ export class ArtisticTriangleRectangle extends LitElement {
 
   render() {
     const style = `
-      border-width: ${this.height / 2}rem ${this.width / 2}rem ${this.height / 2}rem ${this.width / 2}rem;
+      border-width: ${this.height / 2}rem ${this.width / 2}rem ${
+      this.height / 2
+    }rem ${this.width / 2}rem;
       border-style: ${this.borderStyle};
       border-top-color: ${this.topColor};
       border-right-color: ${this.rightColor};
