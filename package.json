@@ -1,6 +1,6 @@
 {
   "name": "swissted-web-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "web component version of swissted project",
   "main": "index.html",
