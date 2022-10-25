@@ -6,7 +6,8 @@
   "main": "index.html",
   "type": "module",
   "scripts": {
-    "dev": "npm-run-all -p scss:watch ts:watch serve",
+    "start": "npm run dev",
+    "dev": "npm-run-all -p scss:watch serve",
     "scss:watch": "sass --watch src/sass:dev/stylesheets",
     "ts:watch": "tsc --watch",
     "serve": "wds --node-resolve --watch",
