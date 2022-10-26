@@ -1,5 +1,9 @@
 $breakpoint-mobile: 768px;
 
+:not(:defined) {
+  visibility: hidden;
+}
+
 .stage {
   width: 100vw;
   height: 100vh;
