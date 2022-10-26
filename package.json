@@ -1,7 +1,7 @@
 {
   "name": "swissted-web-components",
   "version": "2.0.0",
-  "description": "web component version of swissted project",
+  "description": "web component version of swissted project using artistic-elements and eleventy",
   "main": "dist/index.html",
   "scripts": {
     "clean": "rimraf dist",
