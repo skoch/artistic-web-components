@@ -5,9 +5,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setBrowserSyncConfig({
     files: './dist/stylesheets/**/*.css',
   });
-  eleventyConfig.addPassthroughCopy({
-    icons: '/icons',
-  });
+  eleventyConfig.addPassthroughCopy('src/favicon-32x32.png');
 
   eleventyConfig.addTransform('prettier', function (content, outputPath) {
     if (outputPath.indexOf('.html') > -1) {
