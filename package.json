@@ -40,8 +40,5 @@
     "reload": "^3.2.0",
     "rimraf": "^3.0.2",
     "sass": "^1.55.0"
-  },
-  "dependencies": {
-    "html-minifier": "^4.0.0"
   }
 }
