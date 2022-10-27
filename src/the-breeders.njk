@@ -1,0 +1,50 @@
+---
+bandName: The Breeders
+slug: the-breeders
+elements: ['triangle-rectangle']
+---
+
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+  <div class="stage">
+    <main class="band {{ slug }}">
+      <a
+          href="https://www.swissted.com/products/the-breeders-at-the-warfield-1994"
+        >
+        <div class="band__information">
+          <div class="details">
+            <div class="date">
+              <div>Thursday</div>
+              <div>March 31 1994</div>
+              <div>Doors at 7</div>
+            </div>
+            <div class="guests-venue">
+              <div className="guests">
+                <div>With Special Guests</div>
+                <div>Jon Spencer Blues Explosion</div>
+                <div>And Th&apos; Faith Healers</div>
+              </div>
+              <div className="venue">
+                <div>At The Warfield</div>
+                <div>982 Market Street</div>
+                <div>San Francisco, CA</div>
+              </div>
+            </div>
+          </div>
+          <h1>The Breeders</h1>
+        </div>
+        <div class="band__art">
+          <artistic-triangle-rectangle
+              width="71.6"
+              height="71.6"
+              topColor="#8DB948"
+              rightColor="#742A89"
+              bottomColor="#35AEE8"
+              leftColor="#8DB948"
+            ></artistic-triangle-rectangle>
+        </div>
+      </a>
+    </main>
+  </div>
+{% endblock %}

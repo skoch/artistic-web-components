@@ -1,0 +1,62 @@
+---
+bandName: Heatmiser
+slug: heatmiser
+elements: ['rectangle']
+---
+
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+  <div class="stage">
+    <main class="band {{ slug }}">
+      <a
+          href="https://www.swissted.com/products/heatmiser-at-mission-mill-1994"
+        >
+        <div class="band__information">
+          <div class="details">
+            <div class="guests">
+              <div>With Everclear & Skiploader</div>
+              <div>All Ages & Over 21</div>
+            </div>
+            <div class="date">
+              <div>Saturday</div>
+              <div>January 22 1994</div>
+            </div>
+            <div class="venue">
+              <div>Mission Mill</div>
+              <div>Portland, Oregon</div>
+            </div>
+          </div>
+          <h1>heatmiser</h1>
+        </div>
+        <div class="band__art">
+          <artistic-rectangle
+              width="20%"
+              height="100%"
+              color="#8db74a"
+            ></artistic-rectangle>
+          <artistic-rectangle
+              width="20%"
+              height="100%"
+              color="#dc3c2b"
+            ></artistic-rectangle>
+          <artistic-rectangle
+              width="20%"
+              height="100%"
+              color="#dedfd8"
+            ></artistic-rectangle>
+          <artistic-rectangle
+              width="20%"
+              height="100%"
+              color="#010005"
+            ></artistic-rectangle>
+          <artistic-rectangle
+              width="20%"
+              height="100%"
+              color="#54b8c2"
+            ></artistic-rectangle>
+        </div>
+      </a>
+    </main>
+  </div>
+{% endblock %}

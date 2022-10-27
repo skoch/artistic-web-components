@@ -1,0 +1,41 @@
+---
+bandName: Sugar
+slug: sugar
+elements: ['triangle-rectangle']
+---
+
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+  <div class="stage">
+    <main class="band {{ slug }}">
+      <a
+          href="https://www.swissted.com/products/sugar-at-roseland-ballroom-1994"
+        >
+        <artistic-triangle-rectangle
+          width="71.6"
+          height="100.8"
+          topColor="#71bdce"
+          rightColor="#527683"
+          bottomColor="#57255b"
+          leftColor="#763077"
+        ></artistic-triangle-rectangle>
+        <div class="details">
+          <div class="date">
+            <div>Showtime 8 pm</div>
+            <div>Saturday, November 12 1994</div>
+          </div>
+          <div class="venue">
+            <div>Roseland Ballroom</div>
+            <div>239 West 52nd Street, NYC</div>
+          </div>
+        </div>
+        <div class="guests">
+          <div>With Special Guests</div>
+          <div>Velocity Girl and Magnapop</div>
+        </div>
+        <h1>sugar</h1>
+      </a>
+    </main>
+  </div>
+{% endblock %}
