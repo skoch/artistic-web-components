@@ -14,6 +14,13 @@ This project was born out of wanting to learn about:
 
 This led to [artistic elements](https://github.com/skoch/artistic-elements) which has been incorporated into this project.
 
-As a result of not needing any built tools I also decided to use [eleventy](https://www.11ty.dev/) as another experiment. I will now attempt to understand what [nunjucks](https://mozilla.github.io/nunjucks/) is and how to use it.
+## tech
+
+- [eleventy](https://www.11ty.dev/)
+- [nunjucks](https://mozilla.github.io/nunjucks/)
+- [artistic elements](https://github.com/skoch/artistic-elements)
+- [netlify](https://www.netlify.com/)
+
+Real basic templating, super simple config.
 
 Create React App was so 3 years ago, Web Components FTW.

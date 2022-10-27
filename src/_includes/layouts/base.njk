@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% if bandName %}
+      <title>Swi{css}ted : {{ bandName }}</title>
+    {% else %}
+      <title>Swi{css}ted</title>
+    {% endif %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/normalize.css@8.0.1/normalize.css"
+      media="all" />
+
+    <link rel="icon" href="/favicon-32x32.png" type="image/png" />
+    <link rel="stylesheet" href="/stylesheets/index.css" media="all" />
+    {% if slug %}
+      <link
+        rel="stylesheet"
+        href="/stylesheets/bands/{{ slug }}.css"
+        media="all" />
+    {% endif %}
+    {% for element in elements %}
+      <script
+        type="module"
+        src="https://cdn.jsdelivr.net/npm/artistic-elements@{{ artisticElements.version }}/dist/{{ element }}.js"
+      ></script>
+    {% endfor %}
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id={{ google.analyticsTag }}"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', '{{ google.analyticsTag }}');
+    </script>
+  </head>
+  <body>
+    {% block content %}{% endblock %}
+  </body>
+</html>
