@@ -1,9 +1,12 @@
 const prettier = require('prettier');
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.setBrowserSyncConfig({
-    files: './dist/stylesheets/**/*.css',
+  // https://www.11ty.dev/docs/dev-server/
+  // removed all other options
+  eleventyConfig.setServerOptions({
+    watch: ['./dist/stylesheets/**/*.css'],
   });
+
   eleventyConfig.addPassthroughCopy('src/favicon-32x32.png');
 
   eleventyConfig.addTransform('prettier', function (content, outputPath) {
