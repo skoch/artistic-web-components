@@ -1,6 +1,6 @@
 {
   "name": "swissted-web-components",
-  "version": "2.0.1",
+  "version": "2.2.0",
   "description": "web component version of swissted project using artistic-elements and eleventy",
   "main": "dist/index.html",
   "scripts": {
@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/skoch/swissted-web-components#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^2.0.0-beta.1",
     "husky": "^8.0.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1",
